@@ -2,16 +2,16 @@
 
 int main ()
 {
-    int a, P, S;
+	int a, P, S;
 
-    std::cout << "Enter A: " << std::endl;
-    std::cin >> a;
+	std::cout << "Enter A: " << std::endl;
+	std::cin >> a;
 
-    P = a * 4;
-    S = a * a;
+	P = a * 4;
+	S = a * a;
 
-    std::cout << "perimeter is " << P
-    		  << "\nsquare is "  << S << std::endl;
-    		  
-    return 0;
+	std::cout << "perimeter is " << P
+			  << "\nsquare is "  << S << std::endl;
+			  
+	return 0;
 }
