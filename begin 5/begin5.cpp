@@ -1,16 +1,18 @@
 #include <iostream>
 
-int main ()
-{int a,S,V;
-//посчитать объем и площадь поверхности куба при известном ребре
-    std::cout << "enter the edge of the cube\n" ;
-    std::cin >> a;//ввод ребра
+int main()
+{
+	//посчитать объем и площадь поверхности куба при известном ребре
 
-    V= a*a*a;//подсчет площади
+	int a, S, V;
 
-    S=6*a*a;//и объема
+	std::cout << "enter the edge of the cube\n";
+	std::cin >> a; //ввод ребра
 
-    std::cout << "square and volume are " << S << " and " << V << "\n";//вывод данных
+	V = a * a * a; //подсчет площади
+	S = 6 * a * a; //и объема
 
-    return 0;
+	std::cout << "square and volume are " << S << " and " << V << "\n";//вывод данных
+
+	return 0;
 }
