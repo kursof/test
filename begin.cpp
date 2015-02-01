@@ -10,7 +10,8 @@ int main ()
     P = a * 4;
     S = a * a;
 
-    std::cout << "perimeter is " << P << "\nsquare is " << S << std::endl;
+    std::cout << "perimeter is " << a * 4 
+    << "\nsquare is " << a * a << std::endl;
 
     return 0;
 }
