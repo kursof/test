@@ -6,7 +6,7 @@
  * Так же не плохо писать используемый компилятор.
  */
 
- #include <iostream>
+#include <iostream>
 
 void nameFunction(int a, int b)
 {
