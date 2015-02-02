@@ -1,21 +1,29 @@
+/* Поменять местами содержимое переменных A и B и
+ * вывести новые значения A и B.
+ */
+ 
 #include <iostream>
 
-/*Поменять местами содержимое переменных A и B и вывести новые значения A и B.*/
-
 int main ()
-
 {
-    float A,B;
+	float A,B;
 
-    std::cout << "enter A and B\n";
-    std::cin >> A >> B;
+	std::cout << "enter A and B\n";
+	std::cin >> A >> B;
 
-    A = A + B;
-    B = A - B;
-    A = A - B;
+	A = A + B;
+	B = A - B;
+	A = A - B;
+	/*
+	// swap: 
+	float tmp = a;
+		  a = b;
+		  b = tmp;
+	*/
 
-    std::cout << "A is " << A << "\n";
-    std::cout << "B is " << B << "\n";
+	std::cout << "A is " << A << "\n";
 
-    return 0;
+	std::cout << "B is " << B << "\n";
+
+	return 0;
 }
