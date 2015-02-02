@@ -1,20 +1,20 @@
+/* Найти значение функции y = 4(x−3)6 − 7(x−3)3 + 2
+ * при данном значении x
+ */
 #include <iostream>
 #include <cmath>
-/*
- Найти значение функции y = 4(x−3)6 − 7(x−3)3 + 2
- при данном значении x
- */
 
- int main ()
+int main ()
+{
+	float x, y;
 
- {
-     float x, y;
-     std::cout << "enter x\n";
-     std::cin >> x;
+	std::cout << "enter x\n";
 
-     y = 4 * pow((x-3),6) - 7 * pow((x-3), 3) + 2;
+	std::cin >> x;
 
-     std::cout << "y is " << y;
+	y = 4 * pow((x-3), 6) - 7 * pow((x-3), 3) + 2;
 
-     return 0;
- }
+	std::cout << "y is " << y;
+
+	return 0;
+}
