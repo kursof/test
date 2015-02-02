@@ -6,12 +6,6 @@
 #include <cmath>
 #include <iostream>
 
-<<<<<<< HEAD
-int main()
-{
-	return 0;
-}
-=======
 int main ()
 {
     float x1,x2,y1,y2;
@@ -28,5 +22,3 @@ int main ()
      return 0;
 
 }
-
->>>>>>> 20394111724d42dcf0d2c6c98c72b87ff71c7cd6
