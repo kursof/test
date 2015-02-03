@@ -23,6 +23,8 @@ int main()
 	std::cout << "\nskolko stoyat iriski?: ";
 	std::cin >> b;
 
+	std::cin >> b; std::cout << "\n";
+
 	std::cout << "\n1 kilogram konfet stoit: " << a/x << " rubley\n"
 		<< "1 kilogram irisok stoit: " << b/y << " rubley\n";
 
