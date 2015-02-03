@@ -13,5 +13,7 @@ int main ()
 
 	std::cout << "result is " << (a+b)/2;
 
+	std::cin;
+
 	return 0;
 }
