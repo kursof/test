@@ -3,7 +3,7 @@
 #include <iostream>
 #include <cmath>
 
-int main ()
+int main()
 {
 	float x, y;
 
